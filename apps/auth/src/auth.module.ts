@@ -7,7 +7,7 @@ import { AuthService } from './auth.service';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: './env',
+      envFilePath: './.env',
     })
   ],
   controllers: [AuthController],
